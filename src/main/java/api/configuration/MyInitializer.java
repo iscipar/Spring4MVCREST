@@ -11,7 +11,7 @@ public class MyInitializer extends AbstractAnnotationConfigDispatcherServletInit
 
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
-		return null;
+		return new Class[] { MySwaggerConfiguration.class };
 	}
 
 	@Override
