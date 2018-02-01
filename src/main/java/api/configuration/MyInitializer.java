@@ -6,7 +6,7 @@ public class MyInitializer extends AbstractAnnotationConfigDispatcherServletInit
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		return new Class[] { MyConfiguration.class };
+		return new Class[] { MyConfiguration.class, MyValidationConfiguration.class };
 	}
 
 	@Override

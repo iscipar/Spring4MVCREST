@@ -5,35 +5,45 @@
       "name": "Cristiano Ronaldo",
       "nationality": "Portugal",
       "position": "Centre-Forward",
-      "current": "Real Madrid"
+      "current": "Real Madrid",
+      "email": "cr7@hotmail.com",
+      "iban": "ES6621000418401234567891"
     },
     {
       "id": "2",
       "name": "Lionel Messi",
       "nationality": "Argentina",
       "position": "Right Wing",
-      "current": "FC Barcelona"
+      "current": "FC Barcelona",
+      "email": "lmessi@hotmail.com",
+      "iban": "ES6000491500051234567892"
     },
     {
       "id": "3",
       "name": "Neymar",
       "nationality": "Brazil",
       "position": "Left Wing",
-      "current": "Paris Saint-Germain"
+      "current": "Paris Saint-Germain",
+      "email": "neymar@hotmail.com",
+      "iban": "ES9420805801101234567891"
     },
     {
       "id": "4",
       "name": "Simone Zaza",
       "nationality": "Italy",
       "position": "Centre-Forward",
-      "current": "Valencia CF"
+      "current": "Valencia CF",
+      "email": "simozaza@hotmail.com",
+      "iban": "ES9000246912501234567891"
     },
     {
       "id": "5",
-      "name": "Karamoko Ciss�",
+      "name": "Karamoko Ciss?",
       "nationality": "Guinea",
       "position": "Centre-Forward",
-      "current": "Bari"
+      "current": "Bari",
+      "email": "karamoko@hotmail.com",
+      "iban": "ES7100302053091234567895"
     }
   ]
 }

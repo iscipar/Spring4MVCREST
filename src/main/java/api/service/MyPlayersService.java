@@ -91,7 +91,9 @@ public class MyPlayersService {
 					+ "\"name\":\"" + player.getName() + "\","
 					+ "\"nationality\":\"" + player.getNationality() + "\","
 					+ "\"position\":\"" + player.getPosition() + "\","
-					+ "\"current\":\"" + player.getCurrent() + "\"}",
+					+ "\"current\":\"" + player.getCurrent() + "\","
+					+ "\"email\":\"" + player.getEmail() + "\","
+					+ "\"iban\":\"" + player.getIban() + "\"}",
 					ContentType.create("application/json")));
 
 			httpClient.execute(httpPost);
@@ -109,7 +111,9 @@ public class MyPlayersService {
 					+ "\"name\":\"" + player.getName() + "\","
 					+ "\"nationality\":\"" + player.getNationality() + "\","
 					+ "\"position\":\"" + player.getPosition() + "\","
-					+ "\"current\":\"" + player.getCurrent() + "\"}",
+					+ "\"current\":\"" + player.getCurrent() + "\","
+					+ "\"email\":\"" + player.getEmail() + "\","
+					+ "\"iban\":\"" + player.getIban() + "\"}",
 					ContentType.create("application/json")));
 
 			httpClient.execute(httpPut);

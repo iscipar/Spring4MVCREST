@@ -2,6 +2,8 @@ package api.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,7 +17,7 @@ import api.service.MyPlayersService;
 @RestController
 @RequestMapping("/players")
 public class MyPlayersRestController {
-	
+
 	@Autowired
 	MyPlayersService service;
 
@@ -30,12 +32,12 @@ public class MyPlayersRestController {
 	}
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.POST)
-	public void create(@PathVariable("id") String id, @RequestBody Player player) {
+	public void create(@PathVariable("id") String id, @Valid @RequestBody Player player) {
 		service.create(id, player);
 	}
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
-	public void update(@PathVariable("id") String id, @RequestBody Player player) {
+	public void update(@PathVariable("id") String id, @Valid @RequestBody Player player) {
 		service.update(id, player);
 	}
 
