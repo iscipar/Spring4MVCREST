@@ -8,6 +8,7 @@
 	<name>Spring4MVCREST Maven Webapp</name>
 
 	<properties>
+		<springframework.security.version>4.2.4.RELEASE</springframework.security.version>
 		<springframework.version>4.3.0.RELEASE</springframework.version>
 		<jackson.library>2.7.5</jackson.library>
 	</properties>
@@ -32,6 +33,21 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${springframework.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+    		<artifactId>spring-security-config</artifactId>
+    		<version>${springframework.security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+    		<artifactId>spring-security-core</artifactId>
+    		<version>${springframework.security.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+    		<artifactId>spring-security-web</artifactId>
+    		<version>${springframework.security.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mortbay.jetty</groupId>
