@@ -5,6 +5,8 @@ import javax.validation.constraints.NotNull;
 import org.apache.bval.constraints.Email;
 import org.apache.bval.extras.constraints.checkdigit.IBAN;
 
+import api.validator.Nationality;
+
 public class Player {
 
 	@NotNull
@@ -14,6 +16,7 @@ public class Player {
 	String name;
 
 	@NotNull
+	@Nationality
 	String nationality;
 
 	@NotNull
